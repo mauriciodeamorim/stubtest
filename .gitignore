@@ -1,10 +1,7 @@
-# Projeto TDD.Encontro2
+# Projeto Stub
  
-Tdd.Encontro2/bin
-Tdd.Encontro2/obj/
-Tdd.Encontro2.Test/bin/
-Tdd.Encontro2.Test/obj/
-
+/bin
+/obj/
 tmp/
 dist/
 *.user
@@ -14,3 +11,6 @@ _ReSharper.*
 *.pdb
 *.dll
 *.FileListAbsolute.txt
+
+#Tdd.Encontro2.Test/bin/
+#Tdd.Encontro2.Test/obj/
