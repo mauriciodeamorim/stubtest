@@ -7,14 +7,18 @@ namespace Stub
 {
     public class SimpleManagerStore: IManagerStore
     {
-
-        #region IManagerStore Members
-
-        public int Remove(string nameStore)
+        public int Remove(User user)
         {
-            return 0;
-        }
+            //if (user.StoreName == "dev-loja01")
+            //{
+            //    return 0;
+            //}
+            //else
+            //{
+            //    return 1;
+            //}
 
-        #endregion
+            return (user.StoreName == "dev-loja01") ? 0 : 1;
+        }
     }
 }

@@ -12,13 +12,18 @@ namespace Stub
 
         public IManagerStore ManagerStore
         {
-            get { return managerStore; }
-            internal set { if (managerStore == null) { managerStore = this.GetDefaultManager(); } }
+            internal get { if (this.managerStore == null) { this.managerStore = GetDefaultManager(); } return this.managerStore; }
+            set { managerStore=value; }
         }
 
-        public int RemoveStore(string storeName)
+        public int RemoveStore(User user)
         {
-            return managerStore.Remove(storeName);
+            if (user == null)
+            {
+                throw (new NullReferenceException("Argument is null."));
+            }
+
+            return ManagerStore.Remove(user);
         }
 
         protected IManagerStore GetDefaultManager()

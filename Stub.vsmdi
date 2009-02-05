@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestList name="Lists of Tests" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <RunConfiguration id="0464ea46-6981-49a0-bdd4-077437ce1e00" name="Local Test Run" storage="localtestrun.testrunconfig" type="Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration, Microsoft.VisualStudio.QualityTools.Common,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestList>
+  <TestList name="Store" id="9695e4ba-1ef0-46af-afd8-26ecf4221409" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <Description>Store Tests</Description>
+    <TestLinks>
+      <TestLink id="7c82faa6-f7a8-ed8a-9b90-353982c1873f" name="Verify_RemoveStore_With_Null_Parameter" storage="teststub\bin\debug\teststub.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="7bcba2f8-dd3d-981f-2e6e-2a84c4cb3a01" name="Verify_RemoveStore_With_Existing_Store" storage="teststub\bin\debug\teststub.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+</TestLists>

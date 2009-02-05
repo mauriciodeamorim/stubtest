@@ -7,6 +7,6 @@ namespace Stub
 {
     public interface IManagerStore
     {
-        int Remove(string nameStore);
+        int Remove(User user);
     }
 }
